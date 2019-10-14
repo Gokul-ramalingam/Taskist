@@ -15,14 +15,16 @@
     font-size: 1.5em;
 }
 
-.signupToggleButton .signinToggleButton{
+.signupToggleButton{
     color:#060606;
     cursor: pointer;
-}
-
-.signupToggleButton{
     padding: 0% 0% 1% 0%;
     border-bottom: 5px solid #ffffff;
+}
+
+.signinToggleButton{
+    color:#060606;
+    cursor: pointer;
 }
 
 .formContainer{
