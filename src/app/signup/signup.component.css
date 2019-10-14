@@ -15,15 +15,14 @@
     font-size: 1.5em;
 }
 
-.signupToggleButton{
-    /* color: #ffffff; */
+.signupToggleButton .signinToggleButton{
+    color:#060606;
     cursor: pointer;
-    padding: 0% 0% 1% 0%;
-   border-bottom: 5px solid #ffffff;
 }
 
-.signinToggleButton{
-    cursor: pointer;
+.signupToggleButton{
+    padding: 0% 0% 1% 0%;
+    border-bottom: 5px solid #ffffff;
 }
 
 .formContainer{
@@ -45,5 +44,8 @@
 
 .submitButton {
     height: 50px;
-    width: 200px;
+    width: 150px;
+    color: #ffffff;
+    background-color: #060606;
+    padding: 1%;
 }
