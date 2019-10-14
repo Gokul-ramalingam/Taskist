@@ -39,7 +39,7 @@
     border: none;
     outline: none;
     text-align: center;
-    margin: 2%;
+    margin: 1%;
 }
 
 .submitButton {
@@ -48,4 +48,8 @@
     color: #ffffff;
     background-color: #060606;
     padding: 1%;
+}
+
+.validation-message{
+    color: #ffffff;
 }
