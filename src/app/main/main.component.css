@@ -23,13 +23,17 @@ color: #060606;
 .slogan{
     color: #060606;
     margin: 10% 0% 0% 5%;
-    font-size: 4em;
+    font-size: 4rem;
 }
 
 .splashImage{
-    height: 300px;
-    width: 300px;
-    margin: 0% 0% 0% 15%;
+    height: 50%;
+    width: 60%;
+    margin: 4% 0% 0% 15%;
     object-fit: contain;
 }
 
+.signup{
+    padding: 0%;
+    margin: 0%;
+}
