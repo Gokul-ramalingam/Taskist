@@ -5,15 +5,15 @@
     <b class="signinToggleButton">Sign In</b>
   </div>
   <div class="formContainer">
-    <form>
+    <form #userForm='ngForm'>
         <div class="form-group">
-          <input class="input" type="text" placeholder="Username">
+          <input class="input" type="text" placeholder="Username" [(ngModel)]="userModel.username">
         </div>
         <div class="form-group">
-            <input class="input" type="text" placeholder="Email">
+            <input class="input" type="text" placeholder="Email" [(ngModel)]="userModel.email">
         </div>
         <div class="form-group">
-            <input class="input" type="password" placeholder="Password">
+            <input class="input" type="password" placeholder="Password" [(ngModel)]="userModel.password">
         </div>
         <div class="form-group">
             <input class="submitButton" type="submit" placeholder="SignUp">

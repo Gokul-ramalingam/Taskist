@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { User } from '../User'
 
 @Component({
   selector: 'app-signup',
@@ -11,5 +12,5 @@ export class SignupComponent implements OnInit {
 
   ngOnInit() {
   }
-
+ userModel = new User('Gokul','Gokulramalingam1@gmail.com','9999999999')
 }
