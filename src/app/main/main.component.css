@@ -26,3 +26,10 @@ color: #060606;
     font-size: 4em;
 }
 
+.splashImage{
+    height: 300px;
+    width: 300px;
+    margin: 0% 0% 0% 15%;
+    object-fit: contain;
+}
+
