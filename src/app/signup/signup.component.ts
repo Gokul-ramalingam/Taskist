@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { User } from '../User'
 import { UserService } from '../user.service'
+import { NgForm } from '@angular/forms';
 
 @Component({
   selector: 'app-signup',
@@ -12,5 +13,35 @@ export class SignupComponent implements OnInit {
   constructor(private userService:UserService) { }
 
   ngOnInit() {
+  }
+
+  showSucessMessage: boolean;
+serverErrorMessages: string;
+ 
+onSubmit(form: NgForm) {
+    this.userService.postUser(form.value).subscribe(
+      res => {
+        this.showSucessMessage = true;
+        setTimeout(() => this.showSucessMessage = false, 4000);
+        this.resetForm(form);
+      },
+      err => {
+        if (err.status === 422) {
+          this.serverErrorMessages = err.error.join('<br/>');
+        }
+        else
+          this.serverErrorMessages = 'Something went wrong.Please contact admin.';
+      }
+    );
+  }
+
+  resetForm(form: NgForm) {
+    this.userService.selectedUser = {
+      username: '',
+      email: '',
+      password: ''
+    };
+    form.resetForm();
+    this.serverErrorMessages = '';
   }
 }
