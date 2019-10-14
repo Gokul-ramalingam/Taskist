@@ -8,6 +8,7 @@ import { SignupComponent } from './signup/signup.component';
 import { LoginComponent } from './login/login.component';
 import { AppRoutingModule } from './/app-routing.module';
 import { FormsModule } from '@angular/forms'
+import { UserService } from './user.service';
 
 
 @NgModule({
@@ -22,7 +23,7 @@ import { FormsModule } from '@angular/forms'
     AppRoutingModule,
     FormsModule
   ],
-  providers: [],
+  providers: [UserService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
