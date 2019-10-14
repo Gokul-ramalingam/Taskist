@@ -31,7 +31,7 @@
    margin: 5% 0% 0% 0%;
 }
 
-input{
+.input,.submitButton{
     height: 50px;
     width: 400px;
     border-radius: 50px;
@@ -41,4 +41,9 @@ input{
     outline: none;
     text-align: center;
     margin: 3%;
+}
+
+.submitButton {
+    height: 50px;
+    width: 200px;
 }
