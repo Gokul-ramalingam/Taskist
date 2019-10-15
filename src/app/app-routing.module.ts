@@ -4,11 +4,13 @@ import { RouterModule,Routes } from '@angular/router'
 import { MainComponent } from './main/main.component';
 import { SignupComponent } from './signup/signup.component';
 import { LoginComponent } from './login/login.component';
+import { ProfileComponent } from './profile/profile.component';
 
 const routes:Routes = [
 {path:'',redirectTo:'/main',pathMatch:'full'},
 {path:'main',component:MainComponent},
-{path:'signin',component:MainComponent}
+{path:'signin',component:MainComponent},
+{path:'profile',component:ProfileComponent}
 ]
 
 
