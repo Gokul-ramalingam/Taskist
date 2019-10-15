@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { User } from './User'
+import { User,SignIn } from './User'
 import { HttpClient, HttpHeaders } from '@angular/common/http'
 import { environment } from '../environments/environment';
 
@@ -14,8 +14,17 @@ export class UserService {
     password:''
   }
 
+  userSignIn:SignIn = {
+    email:'',
+    password:''
+  }
+
   postUser(user:User){
     return this.http.post(environment.apiBaseUrl+'/register',user);
+  }
+
+  signInUser(user:SignIn){
+    return this.http.post(environment.apiBaseUrl+'/login',user);
   }
 
 }
