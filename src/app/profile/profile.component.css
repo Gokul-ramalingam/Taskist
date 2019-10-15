@@ -1,0 +1,34 @@
+.content{
+    padding: 0%;
+    margin: 0%;
+    width: 100vw;
+}
+
+.sidebar{
+    background-color:#353C44;
+    height: 100vh;
+    padding: 0%;
+    margin: 0%;
+}
+
+.profileDetails{
+    text-align: center;
+    margin: 15% 0% 0% 0%;
+}
+
+.name{
+    color: #ffffff;
+    margin: 5% 0% 0% 0%;
+}
+
+.progress{
+    width: 80%;
+    margin: 20% 10% 0% 10%;
+    height: 5px;
+    border-radius: 50px;
+}
+
+.bar{
+    width: 75%;
+    background-color: tomato;
+}
