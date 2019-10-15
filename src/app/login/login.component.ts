@@ -24,6 +24,8 @@ onSubmit(form: NgForm) {
         setTimeout(() => this.showSucessMessage = false, 4000);
         this.loading = false;
         this.resetForm(form);
+        localStorage.setItem('token',res['token']);
+        this.profile();
       },
       err => {
         if (err.status === 422) {
@@ -48,6 +50,10 @@ onSubmit(form: NgForm) {
 
   signup(){
   this.router.navigate(['../','main'],{relativeTo:this.routes});
+  }
+
+  profile(){
+  this.router.navigate(['../','profile'],{relativeTo:this.routes});
   }
 
 }
