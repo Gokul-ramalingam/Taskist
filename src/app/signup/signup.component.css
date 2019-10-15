@@ -49,9 +49,14 @@
     width: 150px;
     color: #ffffff;
     background-color: #060606;
-    padding: 1%;
+    padding: 0.5%;
+    cursor: pointer;
 }
 
 .validation-message{
+    color: #ffffff;
+}
+
+.load{
     color: #ffffff;
 }

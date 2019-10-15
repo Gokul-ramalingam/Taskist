@@ -17,12 +17,14 @@ export class SignupComponent implements OnInit {
 
   showSucessMessage: boolean;
 serverErrorMessages: string;
- 
+ loading:boolean=false;
 onSubmit(form: NgForm) {
+  this.loading = true;
     this.userService.postUser(form.value).subscribe(
       res => {
         this.showSucessMessage = true;
         setTimeout(() => this.showSucessMessage = false, 4000);
+        this.loading = false;
         this.resetForm(form);
       },
       err => {
@@ -31,6 +33,7 @@ onSubmit(form: NgForm) {
         }
         else
           this.serverErrorMessages = 'Something went wrong.Please contact admin.';
+          this.loading = false;
       }
     );
   }
