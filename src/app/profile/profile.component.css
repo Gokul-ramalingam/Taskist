@@ -18,12 +18,16 @@
 
 .name{
     color: #ffffff;
-    margin: 5% 0% 0% 0%;
+    margin: 5% 0% 10% 0%;
 }
-
+.accompletion{
+ color: #ECEBED;
+ font-size: 0.5em;
+ margin: 5% 0% 0% 70%;
+}
 .progress{
     width: 80%;
-    margin: 20% 10% 0% 10%;
+    margin: 0% 10% 0% 10%;
     height: 5px;
     border-radius: 50px;
 }
@@ -32,3 +36,32 @@
     width: 75%;
     background-color: tomato;
 }
+
+/* .details{
+    text-align: left;
+    margin:  5% 10% 0% 10%;
+    color: #ffffff;
+} */
+
+/* .data{
+    margin:0%;
+}
+.completed
+{
+   padding: 5% 30% 0% 10% ; 
+}
+.remaining{
+    padding: 0% 30% 0% 0% ;   
+} */
+
+/* .activity1,.activity2,.activity3{
+    margin:0%;
+    font-size: .7em;
+}
+
+.activity1{
+    margin:0% 12% 0% 0%;
+}
+.activity2{
+    margin:0% 25% 0% 0%;
+} */
