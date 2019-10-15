@@ -2,7 +2,7 @@
     <h1 class="signupTitle"><b>Create Account</b></h1>
     <div class="toggleButton">
       <b class="signupToggleButton">Sign Up</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      <b class="signinToggleButton">Sign In</b>
+      <b class="signinToggleButton" (click)='login()'>Sign In</b>
     </div>
     <div class="formContainer">
       <form #signUpForm="ngForm" (ngSubmit)="signUpForm.valid && onSubmit(signUpForm)">
