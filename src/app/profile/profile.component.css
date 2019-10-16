@@ -64,10 +64,47 @@
     font-size: .7em;
 }
 
-/*
-.activity1{
-    margin:0% 12% 0% 0%;
+.menu{
+text-align:center;
+margin:25% 0% 0% 0%;
 }
-.activity2{
-    margin:0% 25% 0% 0%;
-} */
+
+.todo,.events,.notes,.news{
+    width: 75%;
+    outline: none;
+    border: none;
+    margin: 5%;
+    border-radius: 50px;
+    background-color: #2C3335;
+    color: #ffffff;
+    padding:1% 0% 1% 0%;
+    cursor: pointer;
+}
+
+.todoIcon{
+    color: #0A79DF;
+}
+
+.eventsIcon{
+    color:#2ecc72;
+}
+
+.notesIcon{
+    color:#F4C724;
+}
+
+.todo:hover{
+    background-color: #FF3031;
+}
+
+.events:hover{
+    background-color: #FF3031;
+}
+
+.notes:hover{
+    background-color: #FF3031;
+}
+
+.news:hover{
+    background-color: #FF3031;
+}
