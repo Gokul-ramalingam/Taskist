@@ -23,7 +23,7 @@
 .accompletion{
  color: #ECEBED;
  font-size: 0.5em;
- margin: 5% 0% 0% 70%;
+ margin: 5% 5% 0% 70%;
 }
 .progress{
     width: 80%;
@@ -37,28 +37,34 @@
     background-color: tomato;
 }
 
-/* .details{
+.details{
     text-align: left;
-    margin:  5% 10% 0% 10%;
+    margin:  20% 5% 0% 5%;
     color: #ffffff;
-} */
+}
+
 
 /* .data{
     margin:0%;
-}
+} */
 .completed
 {
-   padding: 5% 30% 0% 10% ; 
+    text-align: center;
 }
 .remaining{
-    padding: 0% 30% 0% 0% ;   
-} */
+    text-align: center;
+}
 
-/* .activity1,.activity2,.activity3{
+.total{
+    text-align: center;
+}
+
+ .activity{
     margin:0%;
     font-size: .7em;
 }
 
+/*
 .activity1{
     margin:0% 12% 0% 0%;
 }
