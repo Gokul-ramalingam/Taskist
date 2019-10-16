@@ -10,7 +10,10 @@ const routes:Routes = [
 {path:'',redirectTo:'/main',pathMatch:'full'},
 {path:'main',component:MainComponent},
 {path:'signin',component:MainComponent},
-{path:'profile',component:ProfileComponent}
+{path:'todo',component:ProfileComponent},
+{path:'events',component:ProfileComponent},
+{path:'notes',component:ProfileComponent},
+{path:'news',component:ProfileComponent}
 ]
 
 

@@ -11,6 +11,10 @@ import { FormsModule } from '@angular/forms'
 import { UserService } from './user.service';
 import { HttpClientModule } from '@angular/common/http';
 import { ProfileComponent } from './profile/profile.component';
+import { TodoComponent } from './todo/todo.component';
+import { EventsComponent } from './events/events.component';
+import { NotesComponent } from './notes/notes.component';
+import { NewsComponent } from './news/news.component';
 
 
 @NgModule({
@@ -19,7 +23,11 @@ import { ProfileComponent } from './profile/profile.component';
     MainComponent,
     SignupComponent,
     LoginComponent,
-    ProfileComponent
+    ProfileComponent,
+    TodoComponent,
+    EventsComponent,
+    NotesComponent,
+    NewsComponent
   ],
   imports: [
     BrowserModule,
