@@ -34,7 +34,7 @@
 
 .bar{
     width: 75%;
-    background-color: tomato;
+    background-color: #3C40C6;
 }
 
 .details{
@@ -82,7 +82,7 @@ margin:25% 0% 0% 0%;
 }
 
 .todoIcon{
-    color: #0A79DF;
+    color: #25CCF7;
 }
 
 .eventsIcon{
@@ -107,4 +107,20 @@ margin:25% 0% 0% 0%;
 
 .news:hover{
     background-color: #FF3031;
+}
+
+.signout{
+align-items: baseline;
+text-align: right;
+margin:20% 5% 0% 0%;
+}
+
+.signoutIcon{
+    font-size: 2em;
+    color: #DAE0E2;
+    cursor: pointer;
+}
+
+.signoutIcon:hover{
+    color: #FF3031;
 }
