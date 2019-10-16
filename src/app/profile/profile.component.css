@@ -3,6 +3,10 @@
     margin: 0%;
     width: 100vw;
 }
+.list{
+    padding: 0%;
+    margin: 0%;
+}
 
 .sidebar{
     background-color:#353C44;
