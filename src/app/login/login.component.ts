@@ -53,7 +53,7 @@ onSubmit(form: NgForm) {
   }
 
   profile(){
-  this.router.navigate(['../','profile'],{relativeTo:this.routes});
+  this.router.navigate(['../','todo'],{relativeTo:this.routes});
   }
 
 }
