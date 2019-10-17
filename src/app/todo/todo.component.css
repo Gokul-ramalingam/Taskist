@@ -21,13 +21,17 @@ color: #ffffff;
     font-size: 1em;
     margin: 0% 0% 0% 2%;
     outline: none;
-    background-color: #47535E;
+    width: 3%;
+    height: 35px;
+    background-color: #ffffff;
+    color:tomato;
     border:none;
-    color: #353C44;
     cursor: pointer;
+    border-radius: 50px;
 }
 
 .search:hover{
+    background-color: tomato;
     color:#ffffff;
 }
 
