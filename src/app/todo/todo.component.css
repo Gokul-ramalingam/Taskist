@@ -1,0 +1,40 @@
+.content{
+    background-color:  #47535E;
+    height: 100vh;
+    text-align: center;
+}
+
+.input{
+margin-top: 3%;
+/* height: 33px; */
+width: 40%;
+border-radius: 50px;
+outline: none;
+border: none;
+padding: 1% 2% 1% 2%;
+background-color: #353C44;
+color: #ffffff;
+}
+
+.search{
+    display: flexbox;
+    font-size: 1em;
+    margin: 0% 0% 0% 2%;
+    outline: none;
+    background-color: #47535E;
+    border:none;
+    color: #353C44;
+    cursor: pointer;
+}
+
+.search:hover{
+    color:#ffffff;
+}
+
+.list{
+    background-color: #ffffff;
+    height: 70%;
+    width: 80%;
+    margin: 5%  10% 3% 10%;
+    background-color: #353C44;
+}
