@@ -22,16 +22,22 @@ color: #ffffff;
     margin: 0% 0% 0% 2%;
     outline: none;
     width: 3%;
-    height: 35px;
     background-color: #ffffff;
-    color:tomato;
+    color:#3498DB;
     border:none;
     cursor: pointer;
     border-radius: 50px;
+    padding: 0.5%;
+
+    -webkit-transition: color 0.8s ease-out;
+ -moz-transition: color 0.8s ease-out;
+ -o-transition: color 0.8s ease-out;
+ -ms-transition: color 0.8s ease-out;
+ transition: color 0.8s ease-out;
 }
 
 .search:hover{
-    background-color: tomato;
+    background-color: #3498DB;
     color:#ffffff;
 }
 
