@@ -33,8 +33,21 @@ color: #ffffff;
 
 .list{
     background-color: #ffffff;
-    height: 70%;
+    height: 50%;
     width: 80%;
-    margin: 5%  10% 3% 10%;
-    background-color: #353C44;
+    margin: 10%  10% 3% 10%;
+    /* background-color: #353C44; */
+    background-color: transparent;
+    overflow-x: scroll;
 }
+
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+.disable-scrollbars {
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none;  /* IE 10+ */
+  }
+
+ 
