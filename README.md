@@ -1,5 +1,18 @@
 # TaskList
 
+This application is built using MEAN stack technology provides multiple features for managing tasks,events,making notes and also view news using news API.
+
+## Technology stack
+* MongoDB
+* Express
+* Angular 
+* Node
+
+## Preview
+
+![images](images/one.png)
+![images](images/two.png)
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.5.6.
 
 ## Development server
